@@ -1,0 +1,12 @@
+This is a really old "hobby" kernel I wrote back in 2011.  Most of it was written during the summer after my freshman year of college, and I think that's pretty evident... (where's the Makefile?!).  I'm just putting it up here for nostalgia's sake and so I don't lose it.
+
+Some "features"...
+
+- Paging/memory allocation.
+- The keyboard kinda works (there's a prompt build in).
+- Basic virtual filesystem, with a ramfs and atapi driver.
+- Some syscalls were implemented.
+- Could parse an ELF binary, and run it.
+- I remember multitasking kinda working.
+
+In the end, I was able to boot from a CD, load an ELF binary from the CD, and then run it.  I had newlib's libc kinda working, so "simple" programs could run to completion but more complicated programs would crash.  I could assemble a program with NASM, and run 'gcc -v', but I don't think I was ever able to compile something with gcc.
